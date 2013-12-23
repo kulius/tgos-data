@@ -1,0 +1,29 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "ID": 20, "E_NAME": "硬漢嶺區域公共及景觀設施改善工程", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.426281839187752, 25.136081666459237 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "ID": 10, "E_NAME": "觀音山風景區旅遊服務中心整體空間改善工程", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.417966732283091, 25.12935219208406 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "ID": 16, "E_NAME": "觀音山風景區開山園區域公共及景觀設施改善工程", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.420517538299876, 25.127905126024995 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "ID": 19, "E_NAME": "觀音山風景區遊客中心至登山步道口景觀改善工程", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.418710275171279, 25.129311949459218 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 5, "ID": 21, "E_NAME": "觀音山聯外道路(疏運替代路線)改善工程", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.417405967810339, 25.135128167352448 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 6, "ID": 18, "E_NAME": "觀音山地區危險邊坡改善工程", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.423942982326636, 25.123297012977709 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 7, "ID": 22, "E_NAME": "觀音山風景區北53-1線道路面及側溝改善工程", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.42522074348328, 25.122262905785785 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 8, "ID": 12, "E_NAME": "三芝公遊四第三期工程(戶外景觀及基本裝修部份)", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.508138156162644, 25.249054510453046 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 9, "ID": 17, "E_NAME": "三芝公遊四第三期工程(配合使用執照請領部份)", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.508167461583881, 25.248834547193646 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 10, "ID": 15, "E_NAME": "金山旅遊服務中心裝修及周邊景觀工", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.640756761188797, 25.22726729927642 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 11, "ID": 11, "E_NAME": "金山水尾地區環境改善工程", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.646886499172908, 25.22170598732567 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 12, "ID": 3, "E_NAME": "九十二年度野柳地區環境景觀改善工程(第一期)", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.691338513579922, 25.206501039043012 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 13, "ID": 24, "E_NAME": "白沙灣海水浴場土地撥用後週邊土地配合改良工程", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.522249203305051, 25.285536458299848 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 14, "ID": 13, "E_NAME": "九十二年度白沙灣海水浴場土地撥用後週邊土地配合改良", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.522419667107343, 25.285578564214543 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 15, "ID": 14, "E_NAME": "九十二年度白沙灣海水浴場土地撥用後周邊土地配合改良", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.522584162501744, 25.285599336364804 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 16, "ID": 920039, "E_NAME": "九十二年度綠美化及景觀工程石門洞等2\/2", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.51874576779683, 25.283253269027046 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 17, "ID": 23, "E_NAME": "白沙灣區域綠美化及防風林補強工程", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.517098431811661, 25.283867642643163 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 18, "ID": 8, "E_NAME": "麟山鼻環形步道整建工程", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.51294078920634, 25.284019287757541 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 19, "ID": 6, "E_NAME": "石門洞富貴角白沙灣各據點公廁整建工程", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.518934948707127, 25.282605315360893 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 20, "ID": 621, "E_NAME": "石門洞富貴角白沙灣各據點公廁改善工程", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.568121176021577, 25.295749746681533 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 21, "ID": 0, "E_NAME": "石門洞富貴角白沙灣各據點公廁改善工程", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.569465423627989, 25.296658205529553 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 22, "ID": 9200039, "E_NAME": "九十二年度全曲綠美化及景觀工程石門洞等工區1\/2", "E_ENG": null }, "geometry": { "type": "Point", "coordinates": [ 121.570882393321526, 25.297194144530891 ] } }
+]
+}
