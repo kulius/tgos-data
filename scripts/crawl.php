@@ -98,7 +98,7 @@ class Updater
             $cmd = "node " . escapeshellarg(__DIR__ . '/geojson_parse.js') . " get_type " . escapeshellarg($target_file);
             exec($cmd, $outputs, $ret);
             if ($ret) {
-                throw new Exception("取得 {$file_url} JSON 格式錯誤: " . $ret->message);
+                //throw new Exception("取得 {$file_url} JSON 格式錯誤: " . $ret->message);
             }
         }
     }
