@@ -64,10 +64,8 @@ class Updater
         }
         foreach ($ret->data as $shpfile) {
             $source_srs = $origin_source_srs;
-            if ($origin_source_srs == 'twd97/???') {
-                if (preg_match('#(...)\.shp#', $shpfile->geojson_api, $matches)) {
-                    $source_srs = 'twd97/' . $matches[1];
-                } 
+            if ($origin_source_srs == 'custom') {
+                $source_srs = $this->getCustomSrs($folder, $shpfile->geojson_api);
             }
             $url = $shpfile->geojson_api . '&source_srs=' . urlencode($source_srs);
             error_log($url);
@@ -101,6 +99,23 @@ class Updater
                 //throw new Exception("取得 {$file_url} JSON 格式錯誤: " . $ret->message);
             }
         }
+    }
+
+    public function getCustomSrs($dataset, $filename)
+    {
+        switch ($dataset) {
+        case '國家公園管制區圖':
+            if (strpos($filename, 'KPA') !== FALSE) {
+                return 'twd67/119';
+            }
+            return 'twd67';
+        case '各級學校分布圖':
+            if (preg_match('#(...)\.shp#', $filename, $matches)) {
+                return 'twd97/' . $matches[1];
+            } 
+            return 'twd97';
+        }
+
     }
 
     public function main($argv)
