@@ -109,6 +109,13 @@ class Updater
                 return 'twd67/119';
             }
             return 'twd67';
+
+        case '非都市土地使用分區':
+            if (strpos($filename, 'PZO') !== FALSE) {
+                return 'twd97/119';
+            }
+            return 'twd97';
+
         case '各級學校分布圖':
             if (preg_match('#(...)\.shp#', $filename, $matches)) {
                 return 'twd97/' . $matches[1];
